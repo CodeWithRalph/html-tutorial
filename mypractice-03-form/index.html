@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- This is a link to a css file -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- This is a line of code for the icon -->
+    <link href="butterfly.png" rel="icon" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="form-input">
+      <p>username:</p>
+      <input type="text" name="username" maxlength="15" />
+      <p>password:</p>
+      <input type="password" name="password" maxlength="15" />
+      <p>comment:</p>
+      <textarea name="comments" cols="100" rows="20"> </textarea>
+    </form>
+    <form class="form-radio">
+      <p>select element:</p>
+      <input
+        type="radio"
+        id="electricity"
+        name="element"
+        value="electricity"
+        checked
+      /><label for="electricity">electricity</label>
+      <input type="radio" name="element" value="rock" />
+      <input type="radio" name="element" value="fire" />
+      <input type="radio" name="element" value="grass" />
+      <input type="radio" name="element" value="water" />
+    </form>
+    <div style="width: 100%">
+      <iframe
+        class="google-map"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=14.306491078140077,%20120.94711621834783+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      >
+        <a href="https://www.gps.ie/farm-gps/">gps for tractors</a>
+      </iframe>
+    </div>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/CXZWzhAsDg4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <button>Submit</button>
+  </body>
+</html>

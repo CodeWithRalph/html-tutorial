@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 825px;
+  border: 5px solid black;
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 50px auto;
+  position: relative;
+}
+
+.sale {
+  position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  background-color: #f00;
+  padding: 10px 10px;
+  top: -23px;
+  left: -42px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.free-shipping {
+  color: #777;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.item-description {
+  margin-bottom: 5px;
+}
+
+/* PRODUCT */
+.product-title {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.product_details {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.product-details-list {
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+.product-details-list li {
+  margin-bottom: 10px;
+}
+
+.more-information:link,
+.more-information:visited {
+  color: black;
+}
+
+.more-information:hover,
+.more-information:active {
+  text-decoration: none;
+}
+
+.colors {
+  /* position: relative; */
+  margin-top: 30px;
+  user-select: none;
+}
+
+.color {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color:nth-child(1) {
+  background-color: #000;
+  margin-left: 5px;
+}
+.color:nth-child(2) {
+  background-color: #3944bc;
+}
+.color:nth-child(3) {
+  background-color: #ff2d2a;
+}
+.color:nth-child(4) {
+  background-color: #ffd92f;
+}
+.color:nth-child(5) {
+  background-color: #03ac13;
+}
+.color:nth-child(6) {
+  background-color: #652a0e;
+}
+
+/* BUTTON */
+.add-to-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid #000;
+}
+
+.add-to-cart:hover {
+  background-color: white;
+  color: black;
+}

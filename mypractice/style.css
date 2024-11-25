@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+}
+
+.img-guy-tablet {
+  width: 500px;
+  height: auto;
+}
+
+.footer-nav a:link,
+.footer-nav a:visited {
+  color: #fff;
+}
+.footer-nav a:hover,
+.footer-nav a:active {
+  color: #fff;
+}
